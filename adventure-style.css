@@ -1,0 +1,52 @@
+#navbarTogglerDemo02{
+    float: right;
+}
+
+.navbarToggler{
+    color: black;
+}
+
+.heading-container{
+    color: black;
+}
+
+.adventure{
+    justify-content: space-between;
+}
+
+
+.adventure-card img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all 0.2s;
+  }
+
+  .adventure-card img:hover {
+    filter: brightness(50%);
+  }
+
+.adventure-card{
+    position: relative;
+    height: 20rem;
+    border: 2px ridge grey;
+    padding-bottom: 30px;
+    border-radius: 8px;
+  }
+  .left-text{
+    padding-left: 10px;
+  }
+  .right-text{
+    padding-right: 10px;
+  }
+
+  .row{
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer{
+    text-align: center;
+    padding-top: 10px;
+  }
+

@@ -1,0 +1,32 @@
+.adventure-detail-card1{
+    border: 1px ridge grey;
+    padding: 8px;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+}
+
+.content{
+    display: flex;
+}
+
+.adventure-detail-card{
+    position: relative;
+    /* height: 34rem; */
+    border: 1px ridge grey;
+    padding-bottom: 25px;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .adventure-detail-card img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: all 0.2s;
+  }
+
+  .footer{
+    text-align: center;
+    padding-top: 10px;
+  }

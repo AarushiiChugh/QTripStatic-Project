@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 242, 245);
+    font-size: 20px;
+    color: black
+}
+
+
+/* img {
+    width: 40%;
+    float:right;
+    position: absolute;
+    top: 20%;
+    right: 0;
+} */
+
+#navbarTogglerDemo02{
+    float: right;
+}
+
+.navbarToggler{
+    color: black;
+}
+
+.heading-container{
+    color: black;
+}
+
+.hero-image{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("./assets/hero.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-heading{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.hero-input{
+    width: 90%;
+    height: 50px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+
+}
+.tile{
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.tile img {
+  width:100%;
+  height:100%;
+  transition: all 0.2s;
+}
+.tile img:hover {
+  filter: brightness(50%);
+  transform: scale(1.1);
+}
+
+.tile-text{
+  position: absolute;
+  text-align: center;
+  color: white;
+  font:UPPERCASE;
+}
+
+
+.footer{
+    text-align: center;
+    padding-top: 10px;
+  }
+
+
+  
